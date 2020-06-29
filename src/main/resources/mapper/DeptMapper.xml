@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wang.mapper.DeptMapper">
+  <resultMap id="BaseResultMap" type="com.wang.dto.Dept">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="deptNo" jdbcType="BIGINT" property="deptno" />
+    <result column="dName" jdbcType="VARCHAR" property="dname" />
+    <result column="db_source" jdbcType="VARCHAR" property="dbSource" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    deptNo, dName, db_source
+  </sql>
+</mapper>
